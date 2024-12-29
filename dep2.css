@@ -1,0 +1,49 @@
+/* Estilos da seção Chat */
+.chat-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chat-header h2 {
+    font-size: 2rem;
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+.chat-header p {
+    color: #555;
+}
+
+#chat-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#chat-form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#chat-form button {
+    background-color: #005f73;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#chat-form button:hover {
+    background-color: #023e58;
+    transform: scale(1.05);
+}
+
+#chat-response {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #005f73;
+}

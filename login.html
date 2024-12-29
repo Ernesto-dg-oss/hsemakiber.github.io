@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #d2dadf;
+    }
+    .login-container {
+     
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+      
+    }
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .login-container input[type="ernesto gomes"],
+    .login-container input[type="maodeferro"] {
+      width: 200%;
+      padding: 20px;
+      margin: 20px 2;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+    }
+    .login-container button {
+      width: 50%;
+      padding: 10px;
+      margin: 5px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .login-container button:hover {
+      background-color: #0056b3;
+    }
+    .error-message {
+      color: red;
+      margin-top: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <h3>Login Admin</h3>
+  <form>
+    <input type="text" placeholder="login" id="login">
+    <input type="password" placeholder="Senha" id="senha">
+    <button type="submit" onclick ="logar(); return false">Entrar</button>
+  </form>
+</div>
+
+<script>
+ function logar(){
+    var login = document.getElementById("login").value;
+    var senha = document.getElementById("senha").value;
+
+    if(login == "admin" && senha == "123"){
+      location.href = "vai.html"; 
+    }else{
+      alert("Login ou senha invalidos");
+    }
+ }
+ 
+</script>
+
+</body>
+</html>

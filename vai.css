@@ -1,0 +1,138 @@
+/* styles.css */
+/* styles.css */
+
+/* Custom Navbar Background */
+.custom-navbar {
+    background-color: #005f73; /* Cor desejada */
+}
+ /* Link do Logo */
+ .logoo img{
+    display: flex;
+    align-items: self-start;
+    height: 20px; /* Altura do logo */
+    width: 120px; /* Largura automática para manter a proporção */
+    columns: 11;
+    color: rgb(246, 191, 54);
+}
+/* Navbar Centralização */
+.custom-navbar .navbar-nav {
+    display: flex;
+    justify-content: center; /* Centraliza os itens da lista */
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+/* Navbar Links */
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff !important; /* Define a cor dos links como branca */
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+/* Efeito Hover */
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #e0f2f1 !important; /* Altera a cor no hover */
+    transform: scale(1.1); /* Aumenta ligeiramente no hover */
+}
+
+
+/* Navbar Brand */
+.custom-navbar .navbar-brand {
+    color: #ffffff !important; /* Define a cor do nome da marca como branca */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Animação suave */
+}
+
+/* Hover Effect para o Navbar Brand */
+.custom-navbar .navbar-brand:hover {
+    color: #e0f2f1 !important;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+.content-section {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.content-section h2 {
+    color: #09555b;
+    margin-bottom: 20px;
+}
+
+/* Worker Image */
+.worker-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #162e25;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+.img-fluid{
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #7ed6bf;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}

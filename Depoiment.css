@@ -1,0 +1,143 @@
+/* Estilos da Navbar e Footer */
+.navbar-custom {
+    background-color: #005f73;
+}
+
+.navbar-custom .navbar-brand img.logo {
+    height: 20px; /* Altura ajustada */
+    width: 120px; /* Largura ajustada */
+}
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #005f73;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos da Seção Depoimentos */
+.testimonials-section {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonials-header h2 {
+    font-size: 2.5rem;
+    color: #005f73;
+    margin-bottom: 20px;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.testimonial-item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-item h3 {
+    color: #005f73;
+    margin-top: 15px;
+}
+
+.testimonial-item .testimonial-text {
+    color: #555;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.testimonial-item .testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+* Estilos da seção Chat */
+.chat-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chat-header h2 {
+    font-size: 2rem;
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+.chat-header p {
+    color: #555;
+}
+
+#chat-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#chat-form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#chat-form button {
+    background-color: #005f73;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#chat-form button:hover {
+    background-color: #023e58;
+    transform: scale(1.05);
+}
+
+#chat-response {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #005f73;
+}
+
+.animated-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.05);
+    background-color: #023e58;
+}

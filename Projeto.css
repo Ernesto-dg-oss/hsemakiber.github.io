@@ -1,0 +1,160 @@
+/* Reseta estilos */
+body, h1, h2, h3, p, ul, li, a, blockquote {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navegação e Cabeçalho */
+/* Navegação e Cabeçalho */
+#menuu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #00798c;
+    padding: 20px 0;
+    }
+
+
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.main-nav li a:hover {
+    color: #94d2bd;
+}
+
+/* Seção de Projetos */
+.projects-section {
+    background-color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.projects-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projects-header h2 {
+    font-size: 2.8rem;
+    color: #005f73;
+    margin-bottom: 15px;
+}
+
+.projects-header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Lista de Projetos */
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+/* Slick Carousel */
+.slick-slide {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.project-info {
+    text-align: left;
+}
+
+.project-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.project-info li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+/* Estilo para Imagens do Projeto */
+.project-item .carousel img {
+    width: 100%;
+    height: 420px; /* Altura padrão */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer Responsivo */
+footer {
+    background-color: #005f73;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}

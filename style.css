@@ -1,0 +1,35 @@
+
+.nav-link{
+
+    color: #b86f1b;
+    hr{
+        width: 1px;
+        height: 0,5px;
+        
+
+    }
+    
+
+.adress{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    background: #ce9505;
+    ul{
+        
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+        color: #e1e9eb;
+    
+    }
+    ul.bold{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
